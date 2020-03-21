@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  # Add route from Readme
+  resource :bird, only: [:index]
 end
